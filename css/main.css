@@ -1,0 +1,225 @@
+/*************Background image*************/
+.backgroundimg {
+	background-image: url("../img/background.jpg");
+	background-size: cover;	
+	background-attachment: fixed;
+}
+
+/*************Remove outline from button focus*************/
+button:focus {
+	outline: none;
+}
+
+/*************Color/Font*************/
+
+h1 {
+	font-size: 50px;
+}
+
+h1, h2,h3, p, a {
+	color: #e5e5e5;
+}
+
+/*Link style*/
+a:focus {
+	text-decoration: none;
+}
+
+a:visited {
+	color: #e5e5e5;
+	text-decoration: none;	
+}
+
+a:hover {
+	color: #e5e5e5;
+	text-decoration: none;
+}
+
+a:active {
+	color: #e5e5e5;
+	text-decoration: none;
+}
+
+form p input, textarea{
+	color: #333;
+}
+
+.topnav a {
+	font-size: 20px;
+}
+
+/*************Navigation*************/
+
+.topnav {
+	overflow: hidden;
+	width: 100%;
+	margin-bottom: 40px;
+	padding: 0;
+	border-radius: 0 0 10px 10px;
+}
+
+.topnav-blue {
+	background: rgba(32,75,102, 0.8);
+}
+
+.topnav-header{
+	float: left;
+}
+
+.topnav-header a{
+	display: block;
+	text-align: center;
+	padding: 14px;
+	background-color: #041024
+}
+
+.topnav-nav {
+	list-style-type: none;
+	display: block;
+	float: left;
+	margin: 0;
+
+}
+.topnav-nav li{
+	float: left;
+}
+
+.topnav-nav li a {
+	display: block;
+    text-align: center;
+	padding: 15px;
+}
+
+
+.topnav-nav li a:hover {
+	background-color: #041024;
+}
+
+/*Menu button for smaller screens*/
+
+.topnav-toggle{
+	float: right;
+	margin-right: 15px;
+	margin-top: 12px;
+	padding: 9px;
+	background-color: transparent;
+	border: 1px solid #e5e5e5;
+	border-radius: 4px;
+}
+
+.topnav-toggle .menu-icon {
+	display: block;
+	width: 22px;
+	height: 2px;
+	background-color: #e5e5e5;
+}
+
+.topnav-toggle .menu-icon+.menu-icon {
+	margin-top: 4px;
+}
+
+/* Add the responsive class for smaller screens*/
+
+	ul.topnav-nav.responsive {
+		border-top: 1px solid #000;
+		width: 100%;
+		padding-left: 0;
+	}
+	ul.topnav-nav.responsive li {
+		float: none;
+		display: inline;
+	}
+	ul.topnav-nav.responsive li a {
+		display: block;
+		text-align: left;
+	}
+
+
+/*Media queries for navigation-bar*/
+
+@media (min-width: 481px){
+	.topnav-toggle {
+		display: none;
+	}
+}
+
+@media (max-width: 480px) {
+	ul.topnav-nav li {
+		display: none;
+	}
+}
+
+/*Transparent background NOT effecting children!*/
+
+.container-transparent {
+	display: block;
+	background: rgba(32,75,102, 0.5);
+	border-radius: 15px;
+	margin-bottom: 15px;
+	margin-left: -10;
+	margin-right: -10;
+	padding: 15px 15px;
+}
+
+.row.container-transparent {
+	background: rgba(32,75,102, 0.5);
+	border-radius: 15px;
+	margin-bottom: 15px;
+	padding: 15 0px;
+}
+
+/*clear float after elements*/
+.topnav,
+.topnav-header::after{
+	clear: both;
+}
+
+/*************Source link*************/
+
+a.sourcelink{
+	display: block;
+	text-align: right;
+	margin-top: 20px;
+}
+
+/*************Image Slider*************/
+
+.img-shown{
+	display: block;
+	border-radius: 10px;
+	
+}
+
+.img-hidden {
+	display: none;
+}
+
+/*************Dropdown*************/
+
+button.btn-dropdown {
+	display:block;
+	color: #e5e5e5;
+	background-color: transparent;
+	border-color: transparent;
+	width: 100%;
+}
+
+/*border for responsive iframe*/
+.responsive-iframe{
+	display: none;
+	width: 100%;
+	/*border-top: 2px solid #041024;*/
+}
+
+/*Make the iframe respponsive*/
+
+.responsive-iframe iframe {
+	display: block;
+ 	width: 100%;
+ 	height: 100%;
+ 	max-width: 560px;
+	max-height: 315px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
