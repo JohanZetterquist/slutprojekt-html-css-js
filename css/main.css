@@ -1,8 +1,15 @@
 /*************Background image*************/
-.backgroundimg {
-	background-image: url("../img/background.jpg");
+.background-hornet {
+	background-image: url("../img/background-hornet.jpg");
 	background-size: cover;	
 	background-attachment: fixed;
+}
+
+.background-connie{
+	background-image: url("../img/background-connie.png");
+	background-size: cover;	
+	background-attachment: fixed;
+
 }
 
 /*************Remove outline from button focus*************/
