@@ -245,13 +245,18 @@ button.btn-dropdown {
 	width: 100%;
 }
 
-/*.form-container input[type=text]:focus, 
-.form-container textarea:focus {
-	outline: -webkit-focus-ring-color auto 5px;
-}*/
-
 @media(max-width: 450px){
 	.form-container input[type=text]{
 		width: 100%;
 	}
+}
+
+/*SC logo*/
+#sc-logo{
+	text-align: center;
+}
+#sc-logo a img {
+	width: 100%;
+	max-width: 144px;
+	max-height: 200px;
 }
