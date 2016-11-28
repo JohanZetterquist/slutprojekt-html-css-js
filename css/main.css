@@ -76,7 +76,7 @@ form input, textarea{
 .topnav-header a{
 	display: block;
 	text-align: center;
-	padding: 14px;
+	padding: 15px;
 	background-color: #041024
 }
 
@@ -144,13 +144,13 @@ form input, textarea{
 
 /*Media queries for navigation-bar*/
 
-@media (min-width: 481px){
+@media (min-width: 571px){
 	.topnav-toggle {
 		display: none;
 	}
 }
 
-@media (max-width: 480px) {
+@media (max-width: 570px) {
 	ul.topnav-nav li {
 		display: none;
 	}
@@ -161,7 +161,7 @@ form input, textarea{
 .container-transparent {
 	display: block;
 	background: rgba(32,75,102, 0.5);
-	border-radius: 15px;
+	border-radius: 5px;
 	margin-bottom: 15px;
 	margin-left: -10;
 	margin-right: -10;
@@ -170,7 +170,7 @@ form input, textarea{
 
 .row.container-transparent {
 	background: rgba(32,75,102, 0.5);
-	border-radius: 15px;
+	border-radius: 5px;
 	margin-bottom: 15px;
 	padding: 15 0px;
 }
