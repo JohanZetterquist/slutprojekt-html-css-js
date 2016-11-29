@@ -1,20 +1,30 @@
 /*************Background image*************/
+
+.background-home {
+	background-image: url("../img/background-home.jpg");
+}
 .background-hornet {
 	background-image: url("../img/background-hornet.jpg");
-	background-size: cover;	
-	background-attachment: fixed;
 }
 
 .background-connie{
 	background-image: url("../img/background-connie.png");
+}
+
+.background-home, .background-hornet, .background-connie {
 	background-size: cover;	
 	background-attachment: fixed;
-
 }
 
 /*************Remove outline from button focus*************/
 button:focus {
 	outline: none;
+}
+
+/*****Center verticaly******/
+.vertical-center{
+	vertical-align: middle;
+	padding-right: 5px;
 }
 
 /*************Color/Font*************/
@@ -27,25 +37,6 @@ h1, h2,h3, p, a {
 	color: #e5e5e5;
 }
 
-/*Link style*/
-a:focus {
-	text-decoration: none;
-}
-
-a:visited {
-	color: #e5e5e5;
-	text-decoration: none;	
-}
-
-a:hover {
-	color: #e5e5e5;
-	text-decoration: none;
-}
-
-a:active {
-	color: #e5e5e5;
-	text-decoration: none;
-}
 
 form input, textarea{
 	color: #333;
@@ -55,9 +46,16 @@ form input, textarea{
 	font-size: 20px;
 }
 
+/*********Link style*********/
+
+a:focus, a:visited, a:hover, a:active {
+	color: #e5e5e5;
+	text-decoration: none;	
+}
+
 /***********Logo*************/
 
-#rsi-logo {
+.logo {
 	height: 33px;
 }
 
