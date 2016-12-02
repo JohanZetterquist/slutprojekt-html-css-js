@@ -24,16 +24,29 @@
 		</ul>
 	</nav>
 	
-	<h1 class="text-center">The game</h1>
+	<h1 class="text-center">Flight school</h1>
 
 <div class="container">
 	
 	<div class="row container-transparent">
 		<div class="col-md-12">
-			<button onclick="connie()">Connie</button>
-			<button onclick="hornet()">Hornet</button>
-		 <div id="game-container">
-		 </div>
+			<div class="above-canvas">
+			<h3>Choose a ship</h3>
+			<button onclick="hornet()">The fighter</button>
+			<button onclick="connie()">The explorer</button>
+			</div>
+
+		 	<div id="canvas-container">
+		 	</div>
+
+		 	<div class="below-canvas">
+			<button onmousedown="moveup()" onmouseup="stopMove()">UP</button><br>
+			<button onmousedown="moveleft()" onmouseup="stopMove()">LEFT</button>
+			<button onmousedown="moveright()" onmouseup="stopMove()">RIGHT</button><br>                     		
+			<button onmousedown="movedown()" onmouseup="stopMove()">DOWN</button>
+			<p>Use the buttons above or the arrow keys on you keyboard to control the ship.</p>
+			<p>The buttons work on touch devices.
+			</div>
 		</div>
 </div>
 	<footer></footer>
