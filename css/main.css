@@ -266,7 +266,10 @@ button.btn-dropdown {
 
 /**********Fly now--The game*************/
 
-
+#to-small {
+	display: none;
+	text-align: center;
+}
 /* Centers the text, buttons and canvas*/
 #canvas-container,
 .above-canvas,
@@ -286,3 +289,14 @@ canvas {
 	margin: 10px;
 }
 
+@media (max-width: 650px){
+	#to-small{
+		display:block;
+	}
+
+#canvas-container,
+.above-canvas,
+.below-canvas{
+	display: none;
+	}
+}
