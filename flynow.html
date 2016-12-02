@@ -31,7 +31,7 @@
 	<div class="row container-transparent">
 		<div class="col-md-12">
 		<h3 id="to-small">Sorry your screen is to small to experience this awesome game.<br>
-							If you're on a mobile device or tablet try and turn it sideways</h3>
+							If you're on a mobile device or tablet try and turn it sideways.</h3>
 			<div class="above-canvas">
 			<h3>Choose a ship</h3>
 			<button onclick="hornet()">The fighter</button>
@@ -42,10 +42,10 @@
 		 	</div>
 
 		 	<div class="below-canvas">
-			<button onmousedown="moveup()" onmouseup="stopMove()">UP</button><br>
-			<button onmousedown="moveleft()" onmouseup="stopMove()">LEFT</button>
-			<button onmousedown="moveright()" onmouseup="stopMove()">RIGHT</button><br>                     		
-			<button onmousedown="movedown()" onmouseup="stopMove()">DOWN</button>
+			<button onmousedown="moveup()" onmouseup="stopMove()" ontouchstart="moveup()">UP</button><br>
+			<button onmousedown="moveleft()" onmouseup="stopMove()" ontouchstart="moveleft()">LEFT</button>
+			<button onmousedown="moveright()" onmouseup="stopMove()" ontouchstart="moveright()">RIGHT</button><br>                     		
+			<button onmousedown="movedown()" onmouseup="stopMove()" ontouchstart="movedown()">DOWN</button>
 			<p>Use the buttons above or the arrow keys on you keyboard to control the ship.</p>
 			<p>The buttons work on touch devices.
 			</div>
