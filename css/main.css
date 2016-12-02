@@ -290,7 +290,7 @@ canvas {
 	margin: 10px;
 }
 
-
+/*Hide the game and show info text*/
 @media (max-width: 650px){
 	#to-small{
 		display:block;
@@ -303,6 +303,7 @@ canvas {
 	}
 }
 
+/* Removes line breaks on buttons at screen-heights below 450px*/
 @media (max-height: 450px){
 	.below-canvas br {
 		content: "";
