@@ -279,7 +279,8 @@ button.btn-dropdown {
 }
 
 .below-canvas button {
-	width: 60px;
+	text-align: center;
+	width: 70px;
 	margin: 10px;
 }
 
@@ -288,6 +289,7 @@ canvas {
 	border: 1 px solid #333;
 	margin: 10px;
 }
+
 
 @media (max-width: 650px){
 	#to-small{
@@ -298,5 +300,11 @@ canvas {
 .above-canvas,
 .below-canvas{
 	display: none;
+	}
+}
+
+@media (max-height: 450px){
+	.below-canvas br {
+		content: "";
 	}
 }
