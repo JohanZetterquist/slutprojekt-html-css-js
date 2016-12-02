@@ -13,7 +13,7 @@ function menuToggle() {
 
 $(document).ready(function(){
 
-	//Carousel
+	//Slideshow
 	function imageSlider(){
 
 	var currentImage = $(".img-shown");

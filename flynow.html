@@ -1,0 +1,45 @@
+<!DOCTYPE hmtl>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+</head>
+<body class="background-home">
+	<nav class="topnav topnav-blue">
+	 	<div class="topnav-header">
+	 		<a href="index.html">Home</a>
+	 	</div>
+	 	<button type="button" class="topnav-toggle" onclick="menuToggle()">
+	 			<span class="menu-icon"></span>
+	 			<span class="menu-icon"></span>
+	 			<span class="menu-icon"></span>
+	 	</button>	 
+		<ul class="topnav-nav" id="myTopnav">
+			<li><a href="fighter.html">The fighter</a></li>
+			<li><a href="explorer.html">The explorer</a></li>
+			<li><a href="flynow.html">Fly NOW!</a></li>
+		</ul>
+	</nav>
+	
+	<h1 class="text-center">The game</h1>
+
+<div class="container">
+	
+	<div class="row container-transparent">
+		<div class="col-md-12">
+			<button onclick="connie()">Connie</button>
+			<button onclick="hornet()">Hornet</button>
+		 <div id="game-container">
+		 </div>
+		</div>
+</div>
+	<footer></footer>
+
+<script src="script/jquery-3.1.1.min.js"></script>
+<script src="script/java.js"></script>
+<script src="script/game.js"></script>		
+</body>
+</html>
